@@ -1,0 +1,29 @@
+{
+    "atlas": "atlas.png",
+    "profiles": [
+        {
+            "name": "Jimmy",
+            "atlasIndex": 0
+        },
+        {
+            "name": "Mark",
+            "atlasIndex": 1
+        },
+        {
+            "name": "Jeff",
+            "atlasIndex": 2
+        },
+        {
+            "name": "Paul",
+            "atlasIndex": 3
+        },
+        {
+            "name": "Timmy",
+            "atlasIndex": 4
+        },
+        {
+            "name": "Bob",
+            "atlasIndex": 5
+        }
+    ]
+}

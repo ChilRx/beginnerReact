@@ -5,6 +5,7 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  height: 2000px;
 }
 
 .description {
@@ -36,6 +37,7 @@
 
 .code {
   font-weight: 700;
+  background-color: aqua;
   font-family: var(--font-mono);
 }
 
@@ -228,3 +230,4 @@
     transform: rotate(0deg);
   }
 }
+
