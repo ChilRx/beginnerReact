@@ -3,13 +3,14 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import { ScrollContainer } from "./myTS";
+import { useReportWebVitals } from 'next/web-vitals'
 
 export default function Home() {
+    useReportWebVitals((metric)=>console.log(metric))
     return (
         <main className={styles.main}>
             
-            <ScrollContainer>
-            </ScrollContainer>
+            <ScrollContainer></ScrollContainer>
             <div id="blah">
                 testt
             </div>

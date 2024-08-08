@@ -59,6 +59,34 @@
     background: linear-gradient(0.25turn, #c0c, #0cc);
 }
 
+.scrollElement {
+    display: block;
+    border: solid red;
+    border-radius: 50%;
+    border-width: 5px;
+    width: 100%;
+    height: 100%;
+    scale: 90%;
+    animation-duration: 0.5s;
+    animation-name: foobarAnim;
+}
+
+@keyframes foobarAnim {
+    0% {
+
+        opacity: 0;
+        /* background-color: #0000efa4; */
+        /* scale: 0%;  */
+    }
+    50% {
+        /* scale: 100%; */
+    }
+    100% {
+        opacity: 1;
+        /* scale: 80%; */
+    }
+  }
+
 .output {
     position: absolute;
     /* top: 0;

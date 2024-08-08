@@ -1,5 +1,5 @@
 {
-    "atlas": "atlas.png",
+    "atlas": "/atlas.png",
     "profiles": [
         {
             "name": "Jimmy",
